@@ -74,9 +74,27 @@ export default function Countdown() {
           </div>
         )}
 
-        <p className="mt-8 text-sm text-white/70">
-          21 November 2026 · Ora D Restaurant · Phokeng
-        </p>
+        <div className="mx-auto mt-10 max-w-2xl rounded-2xl border border-amber-300/30 bg-white/10 p-6">
+  <h3 className="mb-3 font-serif text-xl font-bold text-white">
+    Donation Drop-off Information
+  </h3>
+
+  <p className="leading-relaxed text-white/90">
+    You may drop off anything you would like to donate at
+    <strong> Ora D Restaurant</strong>, from
+    <strong> 09:00 to 17:00</strong>, Monday 16 November to
+    Saturday 21 November 2026.
+  </p>
+
+  <p className="mt-4 text-sm text-white/70">
+    Every contribution makes a difference. Thank you for helping us
+    make a child happy!
+  </p>
+</div>
+
+<p className="mt-8 text-sm text-white/70">
+  21 November 2026 · Ora D Restaurant · Phokeng
+</p>
       </div>
     </section>
   )
