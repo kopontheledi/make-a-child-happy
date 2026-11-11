@@ -17,7 +17,7 @@ export default function Footer() {
 
         <p className="flex items-center gap-2 text-xs text-white/60">
           Made with <Heart size={14} className="text-[#d6ad72]" fill="currentColor" />
-          to spread joy · Website by OP Digital Creations
+          to spread joy
         </p>
 
       </div>
