@@ -8,6 +8,7 @@ import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
 import ManageWishlist from './pages/admin/ManageWishlist'
 import ManageUpdates from './pages/admin/ManageUpdates'
+import ManageSponsors from './pages/admin/ManageSponsors'
 
 import { auth, db } from './firebase/firebase'
 
@@ -76,6 +77,15 @@ export default function App() {
           element={
             <ProtectedAdminRoute>
               <ManageUpdates />
+            </ProtectedAdminRoute>
+          }
+        />
+
+        <Route
+          path="/admin/sponsors"
+          element={
+            <ProtectedAdminRoute>
+              <ManageSponsors />
             </ProtectedAdminRoute>
           }
         />

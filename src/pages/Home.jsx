@@ -9,6 +9,7 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Countdown from '../components/Countdown'
 import CampaignUpdates from '../components/CampaignUpdates'
+import Sponsors from '../components/Sponsors'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Mission />
         <DonationWishlist />
         <CampaignUpdates />
+        <Sponsors />
         <HowToHelp />
         <EventDetails />
         <Contact />

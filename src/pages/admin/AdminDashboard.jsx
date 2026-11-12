@@ -1,6 +1,6 @@
 import { signOut } from 'firebase/auth'
 import { auth } from '../../firebase/firebase'
-import { LogOut, LayoutDashboard, Gift, Megaphone } from 'lucide-react'
+import { LogOut, LayoutDashboard, Gift, Megaphone, Building2 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 
@@ -75,6 +75,14 @@ export default function AdminDashboard() {
                 >
                     <Megaphone size={18} />
                     Manage Campaign Updates
+                </Link>
+
+                <Link
+                    to="/admin/sponsors"
+                    className="inline-flex items-center gap-2 rounded-full bg-[#7d2636] px-6 py-3 font-semibold text-white hover:bg-[#4b1f2a]"
+                >
+                    <Building2 size={18} />
+                    Manage Sponsors & Partners
                 </Link>
             </main>
         </div>
